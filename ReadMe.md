@@ -22,12 +22,14 @@
 3. 执行[funckeverything.py](https://github.com/V-I-C-T-O-R/12306/blob/master/fuckeverything.py)
 ###### (ps:如果有登录验证失败次数过多,可以尝试自己抓deviceId Url来更新urls_conf.py文件中的getDevicesId对应的url。此外除了手动更改之外，可以替换train/login/Login.py中的_login_init方法中的self._handle_device_code_manual为self._handle_device_code_auto自动获取设备指纹。注：自动获取设备指纹方法容易引起12306拦截，请测试执行)
 
+##### 希望用工具抢到票的童鞋可以留个足迹，以资鼓励，发布地址:[issue](https://github.com/V-I-C-T-O-R/12306/issues/6)
+
 #### Notice
 * 鉴于本工具就是个工具，直接再做一个CNN类的训练服务不大实际(穷->服务器<=0)，所以就折中选择了免费服务自己捣鼓，希望对其他人会有启发
 * 捣鼓了一个自动识别验证码的机制，当前还不是很成熟，有需要的可以酌情修改。
   当前依赖百度图像识别工具/Tencent图像识别工具，免费次数有限，你懂的
 * 如果要使用捣鼓方式，请自行注册使用Baidu/Tencent AI服务
-* 刷票频次最好不要太快，或许0.5秒最佳，哈哈
+* 刷票频次最好不要太快，但是整点发售0.2秒最佳，网速不好，延迟大还真抢不过，哈哈
 * 代码规范暂不是很好，请忽略-_-
 * IP池和登录方式酌情修改
 * 有坑必踩，都是为了回家
@@ -56,7 +58,6 @@
 * oh! 对了，现在是2019年了，加油！
 
     买个票真不容易...
-##### 希望用工具抢到票的童鞋可以留个足迹，以资鼓励，发布地址:[issue](https://github.com/V-I-C-T-O-R/12306/issues/6)
 
 效果图如下：
 买票  
