@@ -1,4 +1,4 @@
-
+# -*- coding: utf-8 -*-
 TYPE_LOGIN_NORMAL_WAY = 0
 TYPE_LOGIN_OTHER_WAY = 1
 

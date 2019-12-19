@@ -1,18 +1,19 @@
+# -*- coding: utf-8 -*-
 # 必填
 # 用户名
 import os
 
-USER_NAME = '******@qq.com'
+USER_NAME = 'WANGruishan'
 # 密码
-USER_PWD = '******'
+USER_PWD = 'Wr15701257613'
 # 出发站
-FROM_STATION = '广州'
+FROM_STATION = '北京'
 # 到达站
-TO_STATION = '新余'
+TO_STATION = '成都'
 # 乘车日期（格式: YYYY-mm-dd）
-TRAIN_DATE = ['2019-09-30','2019-10-01']
+TRAIN_DATE = ['2019-01-15','2019-01-16']
 # 购票人身份证号
-PASSENGERS_ID = ['430121199711112437','430123199312133726']
+PASSENGERS_ID = ['622322199405151214']
 # 票类型（单程:dc 往返:wc）
 TOUR_FLAG = 'dc'
 #订票策略,1表示必须全部一起预定，2表示可以部分提交
@@ -25,7 +26,7 @@ leave_time = ['06:00','18:00']
 
 # 选填
 # 车次 eg:['G6343','G6212']
-TRAINS_NO = ['G1404','G1402','G632']
+TRAINS_NO = ['G349','G571','G89']
 # 座位类别（商务座(9),特等座(P),一等座(M),二等座(O),高级软卧(6),软卧(4),硬卧(3),软座(2),硬座(1),无座(1)）
 #SEAT_TYPE_CODE = ['M', 'O', '4', '3', '2', '1']
 SEAT_TYPE_CODE = ['3']
@@ -56,9 +57,9 @@ THREAD_OR_PROCESS = True
 
 
 mail_host = 'smtp.qq.com'
-mail_user = '******@qq.com'
+mail_user = '1342940006@qq.com'
 #qq邮箱授权码,获取步骤见网址https://service.mail.qq.com/cgi-bin/help?subtype=1&&id=28&&no=1001256
-mail_pass = '******'
+mail_pass = 'vpufwiewsianhjgf'
 mailto_list = ['example@163.com']
 
 #短信,使用说明：https://cuiqingcai.com/5696.html
@@ -66,12 +67,12 @@ ACCOUNT_SID = "DC4c32222717d4daa96bf8b611fd311f66"
 # Your Auth Token from twilio.com/console
 AUTO_TOKEN = "6b8087bf15572c210298375641f59e6a"
 FROM_NUM = '(731) 201-9528'
-TO_NUM = '+8618098271128'
+TO_NUM = '+8615701257613'
 
 #百度AI图像识别应用
-BAIDU_APP_ID = '111111086'
-BAIDU_API_KEY = 'L4NedkfjgleipGfrVM7aTiNsEr'
-BAIDU_SECRET_ID = 'ujPzd234191zH*******GGskjynZXb'
+BAIDU_APP_ID = '18066050'
+BAIDU_API_KEY = 'BseTeXu7IiHlpdktuR24jWi9'
+BAIDU_SECRET_ID = '0yUCsaNAXfbLGOUr8dLcoP4MnTUl48m0'
 
 #腾讯地址https://ai.qq.com/product/visionimgidy.shtml#scene坑的想哭,腾讯有两套系统,账号不互通
 TENCENT_APP_ID = '31144562600'
